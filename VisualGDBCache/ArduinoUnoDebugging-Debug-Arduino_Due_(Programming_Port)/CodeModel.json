@@ -1,0 +1,1899 @@
+{
+    "Core": {
+        "Name": "Arduino Due (Programming Port)",
+        "SourceDirectory": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+        "ArchiveFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\core.a",
+        "Invocations": [
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x\\variant.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\variant.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x\\variant.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\variant.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_pulse_asm.S",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_pulse_asm.S.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-x",
+                    "assembler-with-cpp",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_pulse_asm.S",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_pulse_asm.S.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\WInterrupts.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\WInterrupts.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\WInterrupts.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\WInterrupts.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\cortex_handlers.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\cortex_handlers.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\cortex_handlers.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\cortex_handlers.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\hooks.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\hooks.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\hooks.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\hooks.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\iar_calls_sam3.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\iar_calls_sam3.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\iar_calls_sam3.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\iar_calls_sam3.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\itoa.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\itoa.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\itoa.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\itoa.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\syscalls_sam3.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\syscalls_sam3.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\syscalls_sam3.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\syscalls_sam3.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_analog.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_analog.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_analog.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_analog.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_digital.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_digital.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_digital.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_digital.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_shift.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_shift.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_shift.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_shift.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\avr\\dtostrf.c",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\avr\\dtostrf.c.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\avr\\dtostrf.c",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\avr\\dtostrf.c.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\IPAddress.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\IPAddress.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\IPAddress.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\IPAddress.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\Print.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\Print.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\Print.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\Print.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\Reset.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\Reset.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\Reset.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\Reset.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\RingBuffer.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\RingBuffer.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\RingBuffer.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\RingBuffer.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\Stream.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\Stream.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\Stream.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\Stream.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\UARTClass.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\UARTClass.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\UARTClass.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\UARTClass.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USARTClass.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USARTClass.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USARTClass.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USARTClass.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\WMath.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\WMath.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\WMath.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\WMath.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\WString.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\WString.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\WString.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\WString.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\abi.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\abi.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\abi.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\abi.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\main.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\main.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\main.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\main.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\new.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\new.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\new.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\new.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\watchdog.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\watchdog.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\watchdog.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\watchdog.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_pulse.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_pulse.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\wiring_pulse.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\wiring_pulse.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USB\\CDC.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USB\\CDC.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USB\\CDC.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USB\\CDC.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USB\\PluggableUSB.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USB\\PluggableUSB.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USB\\PluggableUSB.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USB\\PluggableUSB.cpp.o"
+                ]
+            },
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USB\\USBCore.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USB\\USBCore.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-Os",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino\\USB\\USBCore.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\core\\USB\\USBCore.cpp.o"
+                ]
+            }
+        ]
+    },
+    "Sketch": {
+        "Name": "",
+        "SourceDirectory": "",
+        "ArchiveFile": "",
+        "Invocations": [
+            {
+                "GCC": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-g++",
+                "InputFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\ArduinoUnoDebugging.ino.cpp",
+                "ObjectFile": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\ArduinoUnoDebugging.ino.cpp.o",
+                "Arguments": [
+                    "-c",
+                    "-g",
+                    "-O0",
+                    "-w",
+                    "-std=gnu++11",
+                    "-ffunction-sections",
+                    "-fdata-sections",
+                    "-nostdlib",
+                    "-fno-threadsafe-statics",
+                    "--param",
+                    "max-inline-insns-single=500",
+                    "-fno-rtti",
+                    "-fno-exceptions",
+                    "-Dprintf=iprintf",
+                    "-MMD",
+                    "-mcpu=cortex-m3",
+                    "-mthumb",
+                    "-DF_CPU=84000000L",
+                    "-DARDUINO=10600",
+                    "-DARDUINO_SAM_DUE",
+                    "-DARDUINO_ARCH_SAM",
+                    "-D__SAM3X8E__",
+                    "-mthumb",
+                    "-DUSB_VID=0x2341",
+                    "-DUSB_PID=0x003e",
+                    "-DUSBCON",
+                    "-DUSB_MANUFACTURER=\"Arduino LLC\"",
+                    "-DUSB_PRODUCT=\"Arduino Due\"",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/libsam",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/CMSIS/Include/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system/CMSIS/Device/ATMEL/",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino",
+                    "-IC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\ArduinoUnoDebugging.ino.cpp",
+                    "-o",
+                    "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\\sketch\\ArduinoUnoDebugging.ino.cpp.o"
+                ]
+            }
+        ]
+    },
+    "Libraries": null,
+    "KnownHeaders": [
+        {
+            "Name": "SPI.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\SPI\\src"
+            ]
+        },
+        {
+            "Name": "Wire.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\Wire\\src"
+            ]
+        },
+        {
+            "Name": "HID.h",
+            "LibraryDirectories": [
+                "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\HID\\src"
+            ]
+        }
+    ],
+    "Prototypes": [
+        {
+            "FunctionName": "setup",
+            "File": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\sketches\\ArduinoUnoDebugging.ino",
+            "Prototype": "void setup();",
+            "Modifiers": "",
+            "Line": 1
+        },
+        {
+            "FunctionName": "loop",
+            "File": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\sketches\\ArduinoUnoDebugging.ino",
+            "Prototype": "void loop();",
+            "Modifiers": "",
+            "Line": 6
+        }
+    ],
+    "KnownLibraries": [
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\SPI",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\SPI\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "SPI",
+            "RealName": "SPI",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Enables the communication with devices that use the Serial Peripheral Interface (SPI) Bus.",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/SPI",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\Wire",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\Wire\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "Wire",
+            "RealName": "Wire",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Allows the communication between devices or sensors connected via Two Wire Interface Bus.",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/Wire",
+            "Category": "Communication",
+            "License": "Unspecified"
+        },
+        {
+            "Folder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\HID",
+            "SrcFolder": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\libraries\\HID\\src",
+            "UtilityFolder": "",
+            "Layout": 2,
+            "Name": "HID",
+            "RealName": "HID",
+            "IsLegacy": false,
+            "Version": "1.0",
+            "Author": "Arduino",
+            "Maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+            "Sentence": "Module for PluggableUSB infrastructure. Exposes an API for devices like Keyboards, Mice and Gamepads.",
+            "Paragraph": "-",
+            "URL": "http://www.arduino.cc/en/Reference/HID",
+            "Category": "Communication",
+            "License": "Unspecified"
+        }
+    ],
+    "LinkerCommandLine": "\"C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1/bin/arm-none-eabi-gcc\" -mcpu=cortex-m3 -mthumb -Os -Wl,--gc-sections \"-TC:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x/linker_scripts/gcc/flash.ld\" \"-Wl,-Map,C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug/ArduinoUnoDebugging.ino.map\"  -o \"C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug/ArduinoUnoDebugging.ino.elf\" \"-LC:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug\" -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--start-group -u _sbrk -u link -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exit -u kill -u _getpid {object_files} \"C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x/libsam_sam3x8e_gcc_rel.a\" \"C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug/{archive_file}\" -Wl,--end-group -lm -gcc",
+    "BuildProperties": [
+        {
+            "Key": "build.system.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\system"
+        },
+        {
+            "Key": "runtime.tools.arduinoOTA-1.2.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arduinoOTA\\1.2.0"
+        },
+        {
+            "Key": "compiler.ldflags",
+            "Value": ""
+        },
+        {
+            "Key": "recipe.size.pattern",
+            "Value": "\"{compiler.path}{compiler.size.cmd}\" -A \"{build.path}/{build.project_name}.elf\""
+        },
+        {
+            "Key": "recipe.size.regex",
+            "Value": "\\.text\\s+([0-9]+).*"
+        },
+        {
+            "Key": "compiler.cpp.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "runtime.tools.arm-none-eabi-gcc-6-2017-q2-update.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\arm-none-eabi-gcc\\6-2017-q2-update"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-Atmel-1.1.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0"
+        },
+        {
+            "Key": "recipe.c.combine.pattern",
+            "Value": "\"{compiler.path}{compiler.c.elf.cmd}\" -mcpu={build.mcu} -mthumb {compiler.c.elf.flags} \"-T{build.variant.path}/{build.ldscript}\" \"-Wl,-Map,{build.path}/{build.project_name}.map\" {compiler.c.elf.extra_flags} -o \"{build.path}/{build.project_name}.elf\" \"-L{build.path}\" -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--start-group {compiler.combine.flags} {object_files} \"{build.variant.path}/{build.variant_system_lib}\" \"{build.path}/{archive_file}\" -Wl,--end-group -lm -gcc"
+        },
+        {
+            "Key": "runtime.tools.bossac-1.6.1-arduino.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.6.1-arduino"
+        },
+        {
+            "Key": "recipe.cpp.o.pattern",
+            "Value": "\"{compiler.path}{compiler.cpp.cmd}\" {compiler.cpp.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.cpp.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "runtime.tools.arduinoOTA.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arduinoOTA\\1.2.0"
+        },
+        {
+            "Key": "compiler.c.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "build.arch",
+            "Value": "SAM"
+        },
+        {
+            "Key": "upload.maximum_size",
+            "Value": "524288"
+        },
+        {
+            "Key": "compiler.objcopy.eep.flags",
+            "Value": "-O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0"
+        },
+        {
+            "Key": "runtime.tools.STM32Tools.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\STM32Tools\\1.2.0"
+        },
+        {
+            "Key": "runtime.os",
+            "Value": "windows"
+        },
+        {
+            "Key": "compiler.warning_flags",
+            "Value": "-w"
+        },
+        {
+            "Key": "build.project_name",
+            "Value": "ArduinoUnoDebugging.ino"
+        },
+        {
+            "Key": "compiler.warning_flags.all",
+            "Value": "-Wall -Wextra"
+        },
+        {
+            "Key": "build.source.path",
+            "Value": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\sketches"
+        },
+        {
+            "Key": "compiler.ar.cmd",
+            "Value": "arm-none-eabi-ar"
+        },
+        {
+            "Key": "compiler.libsam.c.flags",
+            "Value": "\"-I{build.system.path}/libsam\" \"-I{build.system.path}/CMSIS/CMSIS/Include/\" \"-I{build.system.path}/CMSIS/Device/ATMEL/\""
+        },
+        {
+            "Key": "compiler.ar.flags",
+            "Value": "rcs"
+        },
+        {
+            "Key": "runtime.tools.ctags.path",
+            "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
+        },
+        {
+            "Key": "extra.time.utc",
+            "Value": "1548543175"
+        },
+        {
+            "Key": "upload.tool",
+            "Value": "bossac"
+        },
+        {
+            "Key": "build.extra_flags",
+            "Value": "-D__SAM3X8E__ -mthumb {build.usb_flags}"
+        },
+        {
+            "Key": "runtime.platform.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11"
+        },
+        {
+            "Key": "compiler.combine.flags",
+            "Value": "-u _sbrk -u link -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exit -u kill -u _getpid"
+        },
+        {
+            "Key": "build.path",
+            "Value": "C:\\Users\\Andreas\\source\\repos\\ArduinoUnoDebugging\\ArduinoUnoDebugging\\Output\\Arduino_Due__Programming_Port_\\Debug"
+        },
+        {
+            "Key": "upload.native_usb",
+            "Value": "false"
+        },
+        {
+            "Key": "compiler.c.elf.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "runtime.ide.version",
+            "Value": "10600"
+        },
+        {
+            "Key": "recipe.output.tmp_file",
+            "Value": "{build.project_name}.bin"
+        },
+        {
+            "Key": "compiler.path",
+            "Value": "{runtime.tools.arm-none-eabi-gcc.path}/bin/"
+        },
+        {
+            "Key": "extra.time.local",
+            "Value": "1548546775"
+        },
+        {
+            "Key": "build.vid",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "recipe.objcopy.bin.pattern",
+            "Value": "\"{compiler.path}{compiler.elf2hex.cmd}\" {compiler.elf2hex.flags} {compiler.elf2hex.extra_flags} \"{build.path}/{build.project_name}.elf\" \"{build.path}/{build.project_name}.bin\""
+        },
+        {
+            "Key": "tools.bossac.upload.pattern",
+            "Value": "\"{path}/{cmd}\" {upload.verbose} --port={serial.port.file} -U {upload.native_usb} -e -w {upload.verify} -b \"{build.path}/{build.project_name}.bin\" -R"
+        },
+        {
+            "Key": "tools.bossac.upload.params.verbose",
+            "Value": "-i -d"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-Atmel.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS-Atmel\\1.1.0"
+        },
+        {
+            "Key": "tools.ctags.path",
+            "Value": "{runtime.tools.ctags.path}"
+        },
+        {
+            "Key": "build.usb_flags",
+            "Value": "-DUSB_VID={build.vid} -DUSB_PID={build.pid} -DUSBCON '-DUSB_MANUFACTURER={build.usb_manufacturer}' '-DUSB_PRODUCT={build.usb_product}'"
+        },
+        {
+            "Key": "runtime.tools.arm-none-eabi-gcc.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
+        },
+        {
+            "Key": "upload.use_1200bps_touch",
+            "Value": "true"
+        },
+        {
+            "Key": "tools.bossac.upload.params.verify",
+            "Value": "-v"
+        },
+        {
+            "Key": "runtime.tools.xtensa-lx106-elf-gcc.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\2.5.0-3-20ed2b9"
+        },
+        {
+            "Key": "compiler.define",
+            "Value": "-DARDUINO="
+        },
+        {
+            "Key": "compiler.cpp.flags",
+            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu++11 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -Dprintf=iprintf -MMD"
+        },
+        {
+            "Key": "build.board",
+            "Value": "SAM_DUE"
+        },
+        {
+            "Key": "recipe.S.o.pattern",
+            "Value": "\"{compiler.path}{compiler.S.cmd}\" {compiler.S.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.S.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "ide_version",
+            "Value": "10600"
+        },
+        {
+            "Key": "build.ldscript",
+            "Value": "linker_scripts/gcc/flash.ld"
+        },
+        {
+            "Key": "build.fqbn",
+            "Value": "arduino:sam:arduino_due_x_dbg"
+        },
+        {
+            "Key": "build.usb_product",
+            "Value": "\"Arduino Due\""
+        },
+        {
+            "Key": "compiler.S.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "tools.ctags.cmd.path",
+            "Value": "{path}/ctags"
+        },
+        {
+            "Key": "_id",
+            "Value": "arduino_due_x_dbg"
+        },
+        {
+            "Key": "recipe.output.save_file",
+            "Value": "{build.project_name}.{build.variant}.bin"
+        },
+        {
+            "Key": "software",
+            "Value": "ARDUINO"
+        },
+        {
+            "Key": "compiler.ar.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "runtime.hardware.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam"
+        },
+        {
+            "Key": "compiler.c.elf.flags",
+            "Value": "-Os -Wl,--gc-sections"
+        },
+        {
+            "Key": "tools.bossac.cmd",
+            "Value": "bossac.exe"
+        },
+        {
+            "Key": "build.mcu",
+            "Value": "cortex-m3"
+        },
+        {
+            "Key": "runtime.tools.openocd-0.9.0-arduino6-static.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\openocd\\0.9.0-arduino6-static"
+        },
+        {
+            "Key": "compiler.S.flags",
+            "Value": "-c -g -x assembler-with-cpp -MMD"
+        },
+        {
+            "Key": "pid.1",
+            "Value": "0x003d"
+        },
+        {
+            "Key": "upload.wait_for_upload_port",
+            "Value": "false"
+        },
+        {
+            "Key": "runtime.tools.bossac-1.7.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.7.0"
+        },
+        {
+            "Key": "compiler.size.cmd",
+            "Value": "arm-none-eabi-size"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-4.5.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0"
+        },
+        {
+            "Key": "compiler.warning_flags.default",
+            "Value": ""
+        },
+        {
+            "Key": "build.usb_manufacturer",
+            "Value": "\"Arduino LLC\""
+        },
+        {
+            "Key": "runtime.tools.esptool.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\esptool\\2.5.0-3-20ed2b9"
+        },
+        {
+            "Key": "preproc.macros.flags",
+            "Value": "-w -x c++ -E -CC"
+        },
+        {
+            "Key": "compiler.elf2hex.cmd",
+            "Value": "arm-none-eabi-objcopy"
+        },
+        {
+            "Key": "build.variant_system_lib",
+            "Value": "libsam_sam3x8e_gcc_rel.a"
+        },
+        {
+            "Key": "runtime.tools.stm32tools-2018.12.3.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\stm32duino\\tools\\stm32tools\\2018.12.3"
+        },
+        {
+            "Key": "tools.ctags.pattern",
+            "Value": "\"{cmd.path}\" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives \"{source_file}\""
+        },
+        {
+            "Key": "compiler.elf2hex.flags",
+            "Value": "-O binary"
+        },
+        {
+            "Key": "extra.time.zone",
+            "Value": "3600"
+        },
+        {
+            "Key": "compiler.cpp.cmd",
+            "Value": "arm-none-eabi-g++"
+        },
+        {
+            "Key": "tools.avrdude.path",
+            "Value": "{runtime.tools.avrdude.path}"
+        },
+        {
+            "Key": "compiler.objcopy.cmd",
+            "Value": "arm-none-eabi-objcopy"
+        },
+        {
+            "Key": "runtime.tools.stm32tools.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\stm32duino\\tools\\stm32tools\\2018.12.3"
+        },
+        {
+            "Key": "runtime.tools.STM32Tools-1.2.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\STM32Tools\\1.2.0"
+        },
+        {
+            "Key": "recipe.ar.pattern",
+            "Value": "\"{compiler.path}{compiler.ar.cmd}\" {compiler.ar.flags} {compiler.ar.extra_flags} \"{archive_file_path}\" \"{object_file}\""
+        },
+        {
+            "Key": "compiler.c.elf.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "recipe.c.o.pattern",
+            "Value": "\"{compiler.path}{compiler.c.cmd}\" {compiler.c.flags} -mcpu={build.mcu} -mthumb -DF_CPU={build.f_cpu} -DARDUINO={runtime.ide.version} -DARDUINO_{build.board} -DARDUINO_ARCH_{build.arch} {compiler.c.extra_flags} {build.extra_flags} {compiler.libsam.c.flags} {includes} \"{source_file}\" -o \"{object_file}\""
+        },
+        {
+            "Key": "vid.0",
+            "Value": "0x2341"
+        },
+        {
+            "Key": "vid.1",
+            "Value": "0x2A03"
+        },
+        {
+            "Key": "build.core",
+            "Value": "arduino"
+        },
+        {
+            "Key": "compiler.S.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "build.pid",
+            "Value": "0x003e"
+        },
+        {
+            "Key": "runtime.tools.bossac.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\bossac\\1.7.0"
+        },
+        {
+            "Key": "tools.bossac.upload.params.quiet",
+            "Value": ""
+        },
+        {
+            "Key": "pid.0",
+            "Value": "0x003d"
+        },
+        {
+            "Key": "archive_file_path",
+            "Value": "{build.path}/{archive_file}"
+        },
+        {
+            "Key": "runtime.tools.arm-none-eabi-gcc-4.8.3-2014q1.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\4.8.3-2014q1"
+        },
+        {
+            "Key": "version",
+            "Value": "1.6.11"
+        },
+        {
+            "Key": "runtime.tools.CMSIS.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\CMSIS\\4.5.0"
+        },
+        {
+            "Key": "runtime.tools.mkspiffs-2.5.0-3-20ed2b9.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\mkspiffs\\2.5.0-3-20ed2b9"
+        },
+        {
+            "Key": "compiler.elf2hex.extra_flags",
+            "Value": ""
+        },
+        {
+            "Key": "build.variant.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\variants\\arduino_due_x"
+        },
+        {
+            "Key": "extra.time.dst",
+            "Value": "0"
+        },
+        {
+            "Key": "runtime.tools.ctags-5.8-arduino11.path",
+            "Value": "C:\\Program Files (x86)\\Sysprogs\\VisualGDB\\Arduino\\tools-builder\\ctags\\5.8-arduino11"
+        },
+        {
+            "Key": "compiler.warning_flags.none",
+            "Value": "-w"
+        },
+        {
+            "Key": "compiler.warning_flags.more",
+            "Value": "-Wall"
+        },
+        {
+            "Key": "runtime.tools.CMSIS-5.3.0.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\STM32\\tools\\CMSIS\\5.3.0"
+        },
+        {
+            "Key": "runtime.tools.xtensa-lx106-elf-gcc-2.5.0-3-20ed2b9.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\2.5.0-3-20ed2b9"
+        },
+        {
+            "Key": "tools.bossac_remote.upload.pattern",
+            "Value": "/usr/bin/run-bossac {upload.verbose} --port=ttyATH0 -U {upload.native_usb} -e -w -v -b /tmp/sketch.bin -R"
+        },
+        {
+            "Key": "build.f_cpu",
+            "Value": "84000000L"
+        },
+        {
+            "Key": "name",
+            "Value": "Arduino Due (Programming Port)"
+        },
+        {
+            "Key": "build.variant",
+            "Value": "arduino_due_x"
+        },
+        {
+            "Key": "tools.bossac.path",
+            "Value": "{runtime.tools.bossac.path}"
+        },
+        {
+            "Key": "upload.protocol",
+            "Value": "sam-ba"
+        },
+        {
+            "Key": "compiler.c.cmd",
+            "Value": "arm-none-eabi-gcc"
+        },
+        {
+            "Key": "compiler.c.flags",
+            "Value": "-c -g -Os {compiler.warning_flags} -std=gnu11 -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -Dprintf=iprintf -MMD"
+        },
+        {
+            "Key": "runtime.tools.esptool-2.5.0-3-20ed2b9.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\esptool\\2.5.0-3-20ed2b9"
+        },
+        {
+            "Key": "runtime.tools.openocd.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\openocd\\0.9.0-arduino6-static"
+        },
+        {
+            "Key": "runtime.tools.mkspiffs.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\mkspiffs\\2.5.0-3-20ed2b9"
+        },
+        {
+            "Key": "build.core.path",
+            "Value": "C:\\Users\\Andreas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\sam\\1.6.11\\cores\\arduino"
+        }
+    ]
+}

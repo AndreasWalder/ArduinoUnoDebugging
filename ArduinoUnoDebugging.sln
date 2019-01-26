@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "ArduinoUnoDebugging", "ArduinoUnoDebugging.vgdbproj", "{ECF2B84F-7947-4C13-AB22-6D15F65EAE60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Arduino_Due_(Programming_Port) = Debug|Arduino_Due_(Programming_Port)
+		Release|Arduino_Due_(Programming_Port) = Release|Arduino_Due_(Programming_Port)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECF2B84F-7947-4C13-AB22-6D15F65EAE60}.Debug|Arduino_Due_(Programming_Port).ActiveCfg = Debug|Arduino_Due_(Programming_Port)
+		{ECF2B84F-7947-4C13-AB22-6D15F65EAE60}.Debug|Arduino_Due_(Programming_Port).Build.0 = Debug|Arduino_Due_(Programming_Port)
+		{ECF2B84F-7947-4C13-AB22-6D15F65EAE60}.Release|Arduino_Due_(Programming_Port).ActiveCfg = Release|Arduino_Due_(Programming_Port)
+		{ECF2B84F-7947-4C13-AB22-6D15F65EAE60}.Release|Arduino_Due_(Programming_Port).Build.0 = Release|Arduino_Due_(Programming_Port)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BCD5884-E1B0-40C5-88FB-F056EE0C8C42}
+	EndGlobalSection
+EndGlobal
